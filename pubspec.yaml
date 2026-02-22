@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  csv: ^6.0.0
+  archive: ^3.6.1
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +22,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/quotes.csv
+    - assets/quotes.gz
 
 
 # Launcher icon configuration
